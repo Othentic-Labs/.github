@@ -1,8 +1,8 @@
 # Othentic
 
-Othentic is a self-deploy infrastructure to spin up AVSs.
+Othentic Stack is AVS development framework. 
 
-Check the Official Documentation for more details - https://docs.othentic.xyz/main
+For more details, check the Official Documentation here: - https://docs.othentic.xyz/main
 
 # Network Management
 

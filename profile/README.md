@@ -1,8 +1,20 @@
-# Othentic
 
-Othentic Stack is AVS development framework. 
-
-For more details, check the Official Documentation here: - https://docs.othentic.xyz/main
+<div align="center">
+  <table>
+    <tr align="left">
+      <td>
+        <h1>Othentic</h1>
+      </td>
+      <td>
+        <h4>AVS Development Framework</h4>
+        <div>
+          <a href="https://docs.othentic.xyz/main"><b>Documentation</b></a> •
+          <a href="https://github.com/Othentic-Labs/avs-examples"><b>Examples</b></a>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## AVS Structure on Othentic Stack
 

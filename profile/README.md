@@ -6,7 +6,7 @@
         <h1>Othentic</h1>
       </td>
       <td>
-        <h4>AVS Development Framework</h4>
+        <i>AVS Development Framework</i>
         <div>
           <a href="https://docs.othentic.xyz/main"><b>Documentation</b></a> •
           <a href="https://github.com/Othentic-Labs/avs-examples"><b>Examples</b></a>

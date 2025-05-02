@@ -32,7 +32,7 @@ npm i -g @othentic/othentic-cli
   <tbody>
     <tr>
       <td><a href="https://github.com/Othentic-Labs/avs-examples">AVS Examples</a></td>
-      <td>Ready-to-use examples demonstrating AVS deployment using the Othentic Stack</td>
+      <td>Ready-to-use examples for AVS development using the Othentic Stack</td>
     </tr>
     <tr>
       <td><a href="https://docs.othentic.xyz/main/avs-framework/quick-start">Quickstart Guide</a></td>

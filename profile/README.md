@@ -5,7 +5,7 @@
 
   <p>
     <a href="https://docs.othentic.xyz/main"><strong>📘 Documentation</strong></a> •
-    <a href="https://docs.othentic.xyz/main/avs-framework/smart-contracts"><strong>⚙️ L1 & L2 Contracts</strong></a>
+    <a href="https://github.com/Othentic-Labs/core-contracts/tree/main/src/NetworkManagement"><strong>⚙️ AVS Contracts</strong></a>
   </p>
 </div>
 

@@ -1,19 +1,12 @@
 
 <div align="center">
-  <table>
-    <tr align="left">
-      <td>
-        <h1>Othentic</h1>
-      </td>
-      <td>
-        <i>AVS Development Framework</i>
-        <div>
-          <a href="https://docs.othentic.xyz/main"><b>Documentation</b></a> •
-          <a href="https://github.com/Othentic-Labs/avs-examples"><b>Examples</b></a>
-        </div>
-      </td>
-    </tr>
-  </table>
+  <h1>Othentic</h1>
+  <b>AVS Development Framework</b>
+
+  <p>
+    <a href="https://docs.othentic.xyz/main"><strong>📘 Documentation</strong></a> •
+    <a href="https://docs.othentic.xyz/main/avs-framework/smart-contracts"><strong>⚙️ L1 & L2 Contracts</strong></a>
+  </p>
 </div>
 
 ## AVS Structure on Othentic Stack
@@ -22,37 +15,41 @@ The Othentic Stack enables developers to build an AVS by abstracting away common
 - [Execution Serivce](https://docs.othentic.xyz/main/avs-framework/othentic-consensus/execution-service) 
 - [Validation Service](https://docs.othentic.xyz/main/avs-framework/othentic-consensus/validation-service)
 
-### Layer1 Components
 
-| Contract | Description |
-|----------|-------------|
-| [Othentic Registry](https://docs.othentic.xyz/main/avs-framework/smart-contracts/othentic-registry) | Singleton contract facilitating the integration with shared security protocols and AVSs.  |
-| [AVS Governance](https://docs.othentic.xyz/main/avs-framework/smart-contracts/avs-governance) | Governance contract to manage AVS rules |
-| [L1 Message Handler](https://docs.othentic.xyz/main/avs-framework/smart-contracts/message-handlers#l1-message-handler) | Facilitates L1 → L2 messaging |
-
----
-
-### Layer2 Components
-
-| Contract | Description |
-|----------|-------------|
-| [Attestation Center](https://docs.othentic.xyz/main/avs-framework/smart-contracts/attestation-layer) | Core AVS contract to verify task proofs and track execution |
-| [OBLS](https://docs.othentic.xyz/main/avs-framework/smart-contracts/othentic-bls-obls) | Performs BLS signature verification for AVS task validation |
-| `BN256G2` | Cryptographic logical contract used by OBLS |
-| [L2 Message Handler](https://docs.othentic.xyz/main/avs-framework/smart-contracts/message-handlers#l2-message-handler) | Facilitates L2 → L1 messaging |
-
-
-## Install Othentic CLI
-
-Install using npm:
+## Installation
 ```
 npm i -g @othentic/othentic-cli
 ```
 
-## Protocols/ Libraries Used
-- [LayerZero](https://layerzero.network/)
-- [libp2p](https://github.com/libp2p/js-libp2p)
+## 🛠 Developer Resources
+<table>
+  <thead>
+    <tr>
+      <th>Resource</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Othentic-Labs/avs-examples">AVS Examples</a></td>
+      <td>Ready-to-use examples demonstrating AVS deployment using the Othentic Stack</td>
+    </tr>
+    <tr>
+      <td><a href="https://docs.othentic.xyz/main/avs-framework/quick-start">Quickstart Guide</a></td>
+      <td>Step-by-step AVS setup instructions</td>
+    </tr>
+    <tr>
+      <td><a href="https://sable-gas-d52.notion.site/AI-Agent-Services-18130d732ff680c6b3e8d0ac3a373a89">Verifiable AI Agents</a></td>
+      <td>Build AVSs powering verifiable AI</td>
+    </tr>
+    <tr>
+      <td><a href="https://docs.othentic.xyz/main/avs-framework/explainers/multichain">Multichain Deployment</a></td>
+      <td>Guide to deploy AVSs across multiple L2s</td>
+    </tr>
+  </tbody>
+</table>
 
-## Quickstart Examples 
-Check out our ready-to-use AVS templates and real-world examples here:
-- [AVS Examples](https://github.com/Othentic-Labs/avs-examples) 
+
+<p align="center">
+  💙 Built for AVS builders, by AVS builders.
+</p>

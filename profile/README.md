@@ -9,7 +9,7 @@
   </p>
 </div>
 
-## AVS Structure on Othentic Stack
+## AVS Overview on Othentic Stack
 
 The Othentic Stack enables developers to build an AVS by abstracting away common technical challenges and low-level infrastructure details. Developers focus solely on implementing the two key business actors of AVSs, "Performer" and "Attester" (collectively forming the validator), while their respective business logic is handled by off-chain services 
 - [Execution Serivce](https://docs.othentic.xyz/main/avs-framework/othentic-consensus/execution-service) 

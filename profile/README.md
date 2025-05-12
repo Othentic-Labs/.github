@@ -8,7 +8,7 @@
   </p>
 </div>
 
-## AVS Overview on Othentic Stack
+## Overview
 
 The Othentic Stack enables developers to build an AVS by abstracting away common technical challenges and low-level infrastructure details. AVS teams are required to develop two services: the [**Execution Service**](https://docs.othentic.xyz/main/avs-framework/othentic-consensus/execution-service) and the [**Validation Service**](https://docs.othentic.xyz/main/avs-framework/othentic-consensus/validation-service), which can be implemented in any programming language.
 <div align="center">

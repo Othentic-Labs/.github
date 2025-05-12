@@ -1,7 +1,7 @@
 
 <div align="center">
   <h1>Othentic</h1>
-  <b>AVS Development Framework</b>
+  <b> The Development Framework for Distributed Systems </b>
 
   <p>
     <a href="https://docs.othentic.xyz/main"><strong>📘 Documentation</strong></a> •

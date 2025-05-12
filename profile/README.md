@@ -1,48 +1,50 @@
-# Othentic
 
-Othentic Stack is AVS development framework. 
+<div align="center">
+  <img src="Logo-Black.png" alt="Othentic Logo" width="400"><br><br>
+  <b> The Development Framework for Distributed Systems </b>
 
-For more details, check the Official Documentation here: - https://docs.othentic.xyz/main
+  <p>
+    <a href="https://docs.othentic.xyz/main"><strong>📘 Documentation</strong></a>
+  </p>
+</div>
 
-# Network Management
-Please check out the [src/NetworkManagement](https://github.com/Othentic-Labs/core-contracts/tree/main/src/NetworkManagement) folder to learn about the AVS contracts.
+## AVS Overview on Othentic Stack
 
-![image (12)](https://docs.othentic.xyz/~gitbook/image?url=https%3A%2F%2F740349061-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FOU9BNZyLM0Zg4ujkq3Zn%252Fuploads%252F847pnipuvWgfZnjtkENy%252FStack%2520Highlevel.png%3Falt%3Dmedia%26token%3D96436679-f098-4c24-a871-62f79fdaecdd&width=768&dpr=4&quality=100&sign=e3049e00&sv=2)
+The Othentic Stack enables developers to build an AVS by abstracting away common technical challenges and low-level infrastructure details. AVS teams are required to develop two services: the [**Execution Service**](https://docs.othentic.xyz/main/avs-framework/othentic-consensus/execution-service) and the [**Validation Service**](https://docs.othentic.xyz/main/avs-framework/othentic-consensus/validation-service), which can be implemented in any programming language.
+<div align="center">
+<img src="stack-highlevel.png" alt="High-Level Othentic Stack Architecture" width="850">
+</div>
 
-
-Each validator holds a private key linked to their restaked and delegated stake tokens, granting them voting power and also exposing them to slashing and penalties for malicious behavior. In the Othentic Stack, developers focus on the logic of [Tasks](https://docs.othentic.xyz/main/avs-framework/othentic-consensus/task-and-task-definitions#task) execution and validation. Performers execute the tasks, while attesters vote on the quality of the work.
-
-Network governance is managed by the ```AvsGovernance``` contract, which handles the management of network members, deposits, and more. The network can control stake tokens based on task performance and vote against malicious actions. These votes are managed by the ```AttestationCenter``` contract, which monitors task performance, operators, and their stakes.
-
-To address cost and availability concerns, ```AvsGovernance``` and ```AttestationCenter``` are deployed on separate networks, Layer 1 and Layer 2, respectively. The Othentic Stack leverages LayerZero messaging protocol, along with ```L1MessageHandler``` and ```L2MessageHandler```, to enable message-passing interactions across different layers.
-
-## AVS Structure on Othentic Stack
-
-The Othentic Stack enables developers to build an AVS by abstracting away common technical challenges and low-level infrastructure details. Developers focus solely on implementing the two key business actors of AVSs, "Performer" and "Attester" (collectively forming the validator), while their respective business logic is handled by off-chain services.
-
-### Layer1 Components
-
-The Layer 1 part, consists of the following contract deployments:
-1. [Othentic Registry](https://docs.othentic.xyz/main/avs-framework/smart-contracts/othentic-registry) is a singleton smart contract that facilitates the integration with shared security protocols and AVSs. 
-2. [AvsGovernance]() is governance contract of the AVS.
-3. [l1MessageHandler](https://docs.othentic.xyz/main/avs-framework/smart-contracts/message-handlers#l1-message-handler) is used to send messages from the AVS governance contract to L2.
-
-### Layer2 Components
-
-The Layer 2 part, consists of the following contract deployments:
-1. [AttestationCenter](https://docs.othentic.xyz/main/avs-framework/smart-contracts/attestation-layer) is a contract designed to ensure the integrity and efficiency of AVS operations by bridging off-chain execution with on-chain verification and maintaining a transparent history of all activities involved.
-2. [OBLS](https://docs.othentic.xyz/main/avs-framework/smart-contracts/othentic-bls-obls) is the contract that facilitates on-chain verification for AVS tasks, enabling AVS’s Operators to submit distinct task specifications
-3. ```BN256G2``` is cryptographic logical contract used by OBLS
-4. [l2MessageHandler](https://docs.othentic.xyz/main/avs-framework/smart-contracts/message-handlers#l2-message-handler) is used to send messages from the Attestation center contract to L1.
-
-## Install Othentic CLI
-
-Install using npm:
+## Installation
 ```
 npm i -g @othentic/othentic-cli
 ```
 
-## Protocols/ Libraries Used
-- [LayerZero](https://layerzero.network/)
-- [libp2p](https://github.com/libp2p/js-libp2p)
+## 🛠 Developer Resources
+<table>
+  <thead>
+    <tr>
+      <th>Resource</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://docs.othentic.xyz/main/avs-framework/quick-start">Quickstart Guide</a></td>
+      <td>Step-by-step AVS setup instructions</td>
+    </tr>
+        <tr>
+      <td><a href="https://github.com/Othentic-Labs/avs-examples">Boilerplates</a></td>
+      <td>Ready-to-use examples for AVS development using the Othentic Stack</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Othentic-Labs/core-contracts/tree/main/src/NetworkManagement">Contracts</a></td>
+      <td>AVS contracts implementation</td>
+    </tr>
+  </tbody>
+</table>
 
+
+<p align="center"><b>
+  💙 By builders, for builders.
+</b></p>

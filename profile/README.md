@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="logo-light.png" alt="Othentic Logo"><br><br>
+  <img src="Logo-Black.png" alt="Othentic Logo" width="400"><br><br>
   <b> The Development Framework for Distributed Systems </b>
 
   <p>

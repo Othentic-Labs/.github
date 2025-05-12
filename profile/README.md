@@ -1,6 +1,6 @@
 
 <div align="center">
-  <h1>Othentic</h1>
+  <img src="logo-light.png" alt="Othentic Logo"><br><br>
   <b> The Development Framework for Distributed Systems </b>
 
   <p>

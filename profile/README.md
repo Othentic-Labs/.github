@@ -4,8 +4,7 @@
   <b> The Development Framework for Distributed Systems </b>
 
   <p>
-    <a href="https://docs.othentic.xyz/main"><strong>📘 Documentation</strong></a> •
-    <a href="https://github.com/Othentic-Labs/core-contracts/tree/main/src/NetworkManagement"><strong>⚙️ AVS Contracts</strong></a>
+    <a href="https://docs.othentic.xyz/main"><strong>📘 Documentation</strong></a>
   </p>
 </div>
 
@@ -31,12 +30,16 @@ npm i -g @othentic/othentic-cli
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/Othentic-Labs/avs-examples">AVS Examples</a></td>
+      <td><a href="https://docs.othentic.xyz/main/avs-framework/quick-start">Quickstart Guide</a></td>
+      <td>Step-by-step AVS setup instructions</td>
+    </tr>
+        <tr>
+      <td><a href="https://github.com/Othentic-Labs/avs-examples">Boilerplates</a></td>
       <td>Ready-to-use examples for AVS development using the Othentic Stack</td>
     </tr>
     <tr>
-      <td><a href="https://docs.othentic.xyz/main/avs-framework/quick-start">Quickstart Guide</a></td>
-      <td>Step-by-step AVS setup instructions</td>
+      <td><a href="https://github.com/Othentic-Labs/core-contracts/tree/main/src/NetworkManagement">Contracts</a></td>
+      <td>AVS contracts implementation</td>
     </tr>
     <tr>
       <td><a href="https://sable-gas-d52.notion.site/AI-Agent-Services-18130d732ff680c6b3e8d0ac3a373a89">Verifiable AI Agents</a></td>

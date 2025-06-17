@@ -10,7 +10,7 @@
 
 ## Overview
 
-The Othentic Stack enables developers to build an AVS by abstracting away common technical challenges and low-level infrastructure details. AVS teams are required to develop two services: the [**Execution Service**](https://docs.othentic.xyz/main/avs-framework/othentic-consensus/execution-service) and the [**Validation Service**](https://docs.othentic.xyz/main/avs-framework/othentic-consensus/validation-service), which can be implemented in any programming language.
+The Othentic Stack enables developers to build an AVS by abstracting away common technical challenges and low-level infrastructure details. AVS teams are required to develop two services: the [**Execution Service**](https://docs.othentic.xyz/main/learn/core-concepts/execution-service) and the [**Validation Service**](https://docs.othentic.xyz/main/learn/core-concepts/validation-service), which can be implemented in any programming language.
 <div align="center">
 <img src="stack-highlevel.png" alt="High-Level Othentic Stack Architecture" width="850">
 </div>
@@ -30,7 +30,7 @@ npm i -g @othentic/othentic-cli
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://docs.othentic.xyz/main/avs-framework/quick-start">Quickstart Guide</a></td>
+      <td><a href="https://docs.othentic.xyz/main/welcome/getting-started">Quickstart Guide</a></td>
       <td>Step-by-step AVS setup instructions</td>
     </tr>
         <tr>
